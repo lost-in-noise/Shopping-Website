@@ -1,0 +1,8 @@
+/* responsive.css */
+
+@media (max-width: 1190px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
