@@ -114,3 +114,15 @@ header {
   max-width: 100%;
   height: auto;
 }
+
+/* Brands */
+.brands {
+  background: #EBD96B;
+  padding: 20px 0;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
