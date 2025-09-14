@@ -117,7 +117,7 @@ header {
 
 /* Brands */
 .brands {
-  background: #EBD96B;
+  background: #ebd96b;
   padding: 20px 0;
 }
 
@@ -125,4 +125,26 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* New arrivals */
+.new-arrivals h3,
+.favorites h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.product h4 {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.product p {
+  color: var(--grey);
 }
