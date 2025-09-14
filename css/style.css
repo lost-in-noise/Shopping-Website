@@ -67,3 +67,50 @@ header {
   background-color: #fefefe;
   color: var(--black);
 }
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f6f5;
+  border-radius: 59px;
+  padding: 60px 80px;
+  gap: 40px;
+}
+
+.hero-text h2 {
+  font-size: 96px;
+  font-weight: 900;
+}
+
+.hero-text {
+  max-width: 606px;
+}
+
+.hero-text p {
+  margin: 15px 0;
+  color: #191818;
+}
+
+.btn {
+  background: var(--black);
+  color: var(--white);
+  padding: 19px 40px 18px 41px;
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: -5%;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--yellow);
+  color: var(--black);
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+}
