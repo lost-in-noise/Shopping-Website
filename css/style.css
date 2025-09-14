@@ -172,3 +172,78 @@ header {
   font-size: 0.9rem;
   color: var(--grey);
 }
+
+/* Favorites */
+.fav-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.fav-grid article p {
+  margin-top: 10px;
+  color: var(--grey);
+}
+
+/* App Download */
+.app-download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 5%;
+}
+
+.store-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* Newsletter */
+.newsletter {
+  background: var(--yellow);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.newsletter form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  width: 300px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background: var(--black);
+  color: var(--white);
+}
+
+/* Footer */
+footer {
+  background: var(--black);
+  color: var(--white);
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.footer-links h5 {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+.social-media {
+  display: flex;
+}
